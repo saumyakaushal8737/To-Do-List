@@ -38,7 +38,7 @@ button{
     font-weight:bolder;
 }
 .gradient-text {
-    background: linear-gradient(45deg, #ef4620, #e1f010);
+    background: linear-gradient(45deg, white, hsl(61, 96%, 49%));
     -webkit-background-clip: text;
     background-clip: text; /* Standard property for background clipping */
     color: transparent; /* Standard property for text color */
@@ -76,7 +76,7 @@ button{
    right:390px;
    width:20px;
    height:20px;
-   border:1px solid gray;
+   border:1px solid rgb(244, 242, 242);
    border-radius:50%;
    background-color:rgba(69, 41, 168, 0.32);
 }
@@ -95,4 +95,200 @@ color:rgb(224, 236, 238);
 span:hover{
     color:rgb(236, 59, 5);
     font-size:large;
+}
+@media only screen and (max-width:1250px)
+{
+ .box{
+        width:35%;
+    }
+ button{
+  width:35%;
+  font-size:15px;
+ }
+ .displayField
+ {
+    width:90%;
+ }
+ .list-box ul li 
+ {
+    width:100%;
+    font-size:20px;
+    margin:10px 10px;
+ }
+ .list-box ul li::before
+ {
+    width:15px;
+    height:15px;
+    right:375px;
+ }
+}
+
+@media only screen and (max-width:1100px)
+{
+.box{
+    width:40%;
+}
+.list-box ul li::before{
+    right:340px;
+}
+}
+@media only screen and (max-width:970px)
+{
+    .box{
+        width:45%;
+    }
+    .list-box ul li::before{
+        right:340px;
+    }
+}
+@media only screen and (max-width:950px)
+{
+    .list-box ul li::before{
+        right:360px;
+    }
+}
+@media only screen and (max-width:930px)
+{
+    .box{
+        width:45%;
+    }
+    .list-box ul li::before{
+        right:360px;
+    }
+}
+@media only screen and (max-width:912px)
+{
+    .list-box ul li::before{
+        right:350px;
+    }
+}
+@media only screen and (max-width:888px)
+{
+    .list-box ul li::before{
+        right:345px;
+    }
+}
+@media only screen and (max-width:855px)
+{
+    .box{
+        width:50%;
+    }
+    .list-box ul li::before{
+        right:355px;
+    }
+}
+@media  only screen and (max-width:790px)
+{
+    .list-box ul li::before{
+        right:333px;
+    } 
+}
+@media only screen and (max-width:755px)
+{
+    .box{
+        width:55%;
+    }
+    .list-box ul li::before{
+        right:350px;
+    } 
+}
+@media only screen and (max-width:690px)
+{
+    .box{
+        width:60%;
+    }
+    .list-box ul li::before{
+        right:330px;
+    } 
+}
+@media only screen and (max-width:625px)
+{
+    .box{
+        width:64%;
+    }
+    .list-box ul li::before{
+        right:330px;
+    } 
+}
+@media only screen and (max-width:580px)
+{
+    .box{
+        width:68%;
+    }
+    .list-box ul li::before{
+        right:340px;
+    }  
+}
+@media only screen and (max-width:545px)
+{
+    .box{
+        width:72%;
+    }
+    .list-box ul li::before{
+        right:320px;
+    }
+}
+@media only screen and (max-width:515px)
+{
+    .box{
+        width:76%;
+    }
+    .list-box ul li::before{
+        right:335px;
+    }
+} 
+@media only screen and (max-width:498px)
+{
+    .box{
+        width:80%;
+    }
+    .list-box ul li::before{
+        right:320px;
+    }
+}
+@media only screen and (max-width:464px)
+{
+    .box{
+        width:88%;
+    }
+}
+@media only screen and (max-width:418px)
+{
+    .box{
+        width:95%;
+    }
+}
+@media only screen and (max-width:390px)
+{
+    .box{
+        width:98%;
+    }
+}
+@media only screen and (max-width:320px)
+{
+    .box{
+        width:100%;
+        padding:10px;
+    }
+        button{
+         width:50%;
+         font-size:15px;
+         padding:0px 3px;
+        }
+        .gradient-text
+        {
+            padding:10px 0px;
+        }
+        .displayField
+        {
+           width:100%;
+           margin:0px;
+           padding-left:20px;
+        }
+        .list-box ul li::before
+        {
+           width:15px;
+           height:15px;
+           right:285px;
+        }
 }
